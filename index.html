@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kris Nurariyanto</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="assets/icon/partner.png" alt="logo"/>
+            <h1 class="logo-title">KRISNRA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#jasa">JASA</a>
+                </li>
+                <li>
+                    <a href="mailto:kris.nurariyanto@gmail.com">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Me</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Kris Nurariyanto Here!</p>
+            <p class="description">Technology Development</p>
+            <img class="img-foto" src="assets/foto/avatar1.png" alt="krisnra foto 1" />
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="content">
+            <p class="title">I'm a Programmer</p>
+            <p class="description">Follow Your Dream</p>
+            <button class="btn-cta" onclick="redirWhatsapp()">Let's Cooperate</button>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <img class="icon" src="assets/icon/24-hours.png" alt="icon 1" />
+                    <p class="card-title">Non-stop Service</p>
+                    <p class="card-description">Service 24 hours non-stop when you need</p>
+                </div>
+                <div class="card-item">
+                    <img class="icon" src="assets/icon/hot-deal.png" alt="icon 1" />
+                    <p class="card-title">Cheap Service</p>
+                    <p class="card-description">The cheapest service fee but the quality is guaranteed</p>
+                </div>
+                <div class="card-item">
+                    <img class="icon" src="assets/icon/rating.png" alt="icon 1" />
+                    <p class="card-title">+10K Review</p>
+                    <p class="card-description">Has been proven by tens of thousands of satisfied clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Kris Nurariyanto 2022</p> 
+    </footer>
+
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/krisnra/"
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/0858064300/"
+        }
+
+    </script>
+</body>
+
+</html>
